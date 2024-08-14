@@ -1,2 +1,2 @@
-# operadores
+tarea
 operadores logicos
