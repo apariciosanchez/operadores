@@ -9,13 +9,13 @@ let totalProductos = camisetas + pantalones + zapatos;
 console.log("Total de productos en el inventario: " + totalProductos);
 
 if (camisetas < 100) {
-    console.log("Es necesario reponer camisetas.");
+    console.log("Es necesario reponer camisetas, solo hay en existencia: " + camisetas);
 
-} else if (pantalones < 100) {
-    console.log("Es necesario reponer pantalones.");
+} if (pantalones < 100) {
+    console.log("Es necesario reponer pantalones,  solo hay en existencia: " + pantalones);
 
-} else if (zapatos < 100) {
-    console.log("Es necesario reponer zapatos.");
+} if (zapatos < 100) {
+    console.log("Es necesario reponer zapatos,  solo hay en existencia: " + zapatos);
 } else {
     console.log("No es necesario reponer ningún producto.");
 }
