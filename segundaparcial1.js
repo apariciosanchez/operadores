@@ -3,7 +3,7 @@
  let peliculas = [
     { titulo: "Dragon Ball Z", genero: "Anime" },
     { titulo: "La Roca", genero: "Acción" },
-    { titulo: "Dos Policías Rebeldes", genero: "Acción/Comedia" },
+    { titulo: "Dos Policías Rebeldes", genero: "Comedia" },
     { titulo: "El Titanic", genero: "Romance" },
     { titulo: "Matrix", genero: "Ciencia Ficción" }
 ];
